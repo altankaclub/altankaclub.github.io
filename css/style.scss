@@ -33,7 +33,7 @@ $secondary: #FF7B7B;
 }
 
 body {
-  background-color: #e9edf0;
+  background-color: #e3e1d8;
   @extend %opensans;
   -webkit-font-smoothing: antialiased;
 }
@@ -41,6 +41,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   @extend %merriweather;
   font-weight: 700;
+  color: #333333;
 }
 
 article {
@@ -50,6 +51,7 @@ article {
 p {
   line-height: 1.8;
   font-size: 1.3em;
+  color: #333333;
 }
 
 a {
@@ -58,6 +60,7 @@ a {
     color: #FF5B33;
     text-decoration: none;
   }
+  color: #333333;
 }
 
 img {
@@ -67,12 +70,13 @@ img {
 button.btn, input.btn {
   padding: 12px 35px;
   margin: 2em 0.5em;
-  border: solid 1px #d5e0e7;
-  border-radius: 4px;
-  color: #2E4453;
+  // border: solid 1px #d5e0e7;
+  border-radius: 10px;
+  color: #333333;
   font-weight: 600;
+  background-color: #e7e3d5;
   &:hover, &.btn-default:hover {
-    background-color: white;
+    background-color: #e7e3d5;
     border: solid 1px #b0c5d2;
     -moz-box-shadow: 0 1px 0 #b0c5d2;
     -webkit-box-shadow: 0 1px 0 #b0c5d2;
