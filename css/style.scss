@@ -82,6 +82,13 @@ button.btn, input.btn {
     -webkit-box-shadow: 0 1px 0 #b0c5d2;
     box-shadow: 0 1px 0 #b0c5d2;
   }
+  &:hover.disabled {
+    background-color: #e7e3d5;
+    // border: solid 1px #b0c5d2;
+    // -moz-box-shadow: 0 1px 0 #b0c5d2;
+    // -webkit-box-shadow: 0 1px 0 #b0c5d2;
+    // box-shadow: 0 1px 0 #b0c5d2;
+  }
   i {
     padding-right: 0.5em;
   }
